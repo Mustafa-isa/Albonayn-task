@@ -170,7 +170,7 @@ font-weight: bold;
 
     position: absolute;
     background: antiquewhite;
-    width: 100%;
+    width: 40%;
     border-radius: 5px;
     right: 0;
     z-index: 10;
@@ -181,14 +181,12 @@ font-weight: bold;
     align-items: center;
     top: 8%;
     justify-content: center;
-    opacity: 0;
+    transform: scale(0);
 }
 .container-home .header .header-container-left .header-container-left-links ul{
     display: block;
 }
-.header-container-left-img:hover .header-container-left-links {
-    opacity: 1;
-}
+
     
     .header-container-right i{
         display: block;
@@ -198,6 +196,12 @@ font-weight: bold;
         height: 300px;
     }
 }  
+.header .header-container-left-links {
+    transform: scale(1);
+}
+.header-container-right:hover .header-container-left-links {
+    transform: scale(1);
+}
 
 @media(max-width:767px){
     .home-content-right img {
@@ -233,6 +237,7 @@ font-weight: bold;
         right: -20px;
 
     }
+   
 }
 
 
@@ -246,7 +251,7 @@ font-weight: bold;
 
 
 .services{
-    height: 100vh;
+    height: 110vh;
     padding: 40px 30px;
 
 }
@@ -278,15 +283,81 @@ font-weight: bold;
     border: 1px solid #eee;
     border-radius: 15px;
 }
+.services-content .services-item {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 290px;
+    text-align: center;
+}
+.services-content .services-item  i{
+color: #fff;
+padding-bottom: 10px;
+display: block;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15px;
+margin-bottom: 10px;
 
+}
 
+.services-content .services-item h3{
+font-weight: 500;
+padding-bottom: 10px;
+}
 
+.services-content .services-item p{
+color: #888;
+}
 
+.services-content .services-item a{
+ display: inline-block;
+ margin-top: 5px;
+}
 
+.services-content {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+@media(max-width:767px){
+    .services-content .services-item {
+        width: 100%;
+    }
+    .services-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
 
+    }
+}
+.services-bottom {
+    margin-left: 50px;
+    padding: 10px;
+    margin-right: 50px;
+    border-radius: 5px;
+    display: flex;
+    background: #eee;
+    justify-content: space-between;
+}
+.services-bottom img{
+    height: 300px;
 
+}
+.bottom-content{
+margin-top: 10px;
 
+}
+.bottom-content .content-bottom{
 
+}
 
 
 
