@@ -196,10 +196,8 @@ font-weight: bold;
         height: 300px;
     }
 }  
-.header .header-container-left-links {
-    transform: scale(1);
-}
-.header-container-right:hover .header-container-left-links {
+
+.header:hover .header-container-left-links {
     transform: scale(1);
 }
 
@@ -231,10 +229,10 @@ font-weight: bold;
 }
 @media(max-width:767px){
     .home-content-right img{
-        top: 300px;
+        top: 280px;
         width: 150px;
         height: 150px;
-        right: -20px;
+        right: -;
 
     }
    
@@ -287,7 +285,7 @@ font-weight: bold;
     padding: 20px;
     border: 1px solid #eee;
     border-radius: 5px;
-    width: 290px;
+    width: 280px;
     text-align: center;
 }
 .services-content .services-item  i{
@@ -337,6 +335,20 @@ color: #888;
         gap: 15px;
 
     }
+    .services-bottom img{
+        display: none;
+    
+    }
+    .services-bottom {
+        text-align: center;
+
+    }
+    .bottom-content .content-bottom {
+    display: block;
+    }
+   
+
+
 }
 .services-bottom {
     margin-left: 50px;
@@ -345,21 +357,62 @@ color: #888;
     border-radius: 5px;
     display: flex;
     background: #eee;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
 .services-bottom img{
     height: 300px;
 
 }
 .bottom-content{
-margin-top: 10px;
+margin-top: 30px;
 
 }
-.bottom-content .content-bottom{
+.bottom-content .content-bottom .first {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.bottom-content .content-bottom {
+    display: flex;
+}
+.bottom-content .content-bottom i {
+    display: inline-block;
+    padding: 5px 7px;
+    color: #fff;
+    background: green;
+    height: 30px;
+    border-radius: 50%;
+}
 
+.bottom-content .content-bottom span {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.bottom-content .content-bottom p {
+    line-height: 1.5;
+    font-size: 10px;
+    padding-top: 5px;
+    color: #555;
 }
 
 
+.bottom-content sapn {
+    font-size: 10px;
+    color: rgb(213, 68, 15);
+    text-transform: capitalize;
+}
+
+.bottom-content h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+
+}
+.bottom-content p{
+    color: #999;
+}
 
 
 
