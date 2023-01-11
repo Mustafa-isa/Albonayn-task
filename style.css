@@ -758,3 +758,39 @@ border-radius: 6px;
 i.bn{
     color: rgb(8, 195, 8);
 }
+.slide-personal .slide-content{
+
+}
+.slide-personal .slide-content p{
+
+}.slide-personal .slide-content h4{
+
+}.slide-personal .slide-content span{
+
+}
+.absloute{
+
+}
+.slide-personal {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background: #0014ff8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.image{
+
+}
+.image img{
+    
+}
+.image i{
+
+}
+.image span{
+    
+}
